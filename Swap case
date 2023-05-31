@@ -1,0 +1,24 @@
+#Run in python3
+#Source code
+def swap_case(s):
+    string = ""
+    for i in s:
+        if i.isupper() == True:
+            string+=(i.lower())
+        else:
+            string+=(i.upper())
+    return string
+    
+#it is already in the given code...
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
+
+
+
+#input=-------
+HackerRank.com presents "Pythonist 2".
+
+#output-------
+hACKERrANK.COM PRESENTS "pYTHONIST 2".
