@@ -1,0 +1,18 @@
+#Run in Pypy 3
+#source code
+
+if __name__ == '__main__':
+    n = int(input())
+    integer_list = map(int,input().split())
+    integer_list=tuple((integer_list))
+
+    print(hash(integer_list))
+                        
+    
+#input----------
+2
+1 2
+
+
+#output--------
+3713081631934410656
